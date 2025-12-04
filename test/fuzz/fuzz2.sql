@@ -1,0 +1,1 @@
+CREATE TABLE t(x TEXT CHECK(x GLOB '*['));

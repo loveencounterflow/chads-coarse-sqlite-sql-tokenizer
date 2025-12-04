@@ -1,0 +1,18 @@
+
+{
+  "name": "chads-coarse-sqlite-sql-tokenizer",
+  "version": "0.1.0",
+  "description": "Streaming, lossless, SQLite-aware SQL tokenizer + async statement iterator. Preserves comments and raw text.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --exit",
+    "fuzz-harness": "bash ./fuzz/run-fuzz-harness.sh"
+  },
+  "keywords": ["sqlite","tokenizer","sql","stream","dump","token"],
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0"
+  },
+  "engines": { "node": ">=16" }
+}

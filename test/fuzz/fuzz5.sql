@@ -1,0 +1,1 @@
+INSERT INTO t VALUES(printf('%q', char(0)));
